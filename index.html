@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart AI Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src = "script.js"></script> 
+</head>
+<body>
+    <div id="app">
+
+        <header role="banner">
+        <h1> Smart AI ChatBot </h1>
+        </header>
+
+        <main id="chat-window" role="main" aria-label="Chat Window">
+        <div id="status-area" style="font-style: italic; color: gray; margin-top: 10px;"></div>
+        <section id="messages-container" aria-live="polite" aria-atomic="false"> </section>
+        <div id="status-indicator" aria-live="polite"> </div>
+        </main>
+
+        <footer id="input-area" role="contentinfo">
+        <label for="user-input" class="visually-hidden">Your Message</label>
+        <textarea id="user-input" rows="3" placeholder="Type your message..." aria-label="user-input"></textarea>
+        <button id="send-button" aria-label="Send message">Send</button>
+        </footer>
+
+    </div>
+</body>
+</html>
