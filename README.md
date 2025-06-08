@@ -11,24 +11,24 @@
 - Hosting: Designed to be self-hosted (localhost or deployment-ready)
 
 ## How to Run Locally
-- Clone the Repository
--- git clone https://github.com/yourusername/yourrepo.git
--- cd yourrepo
+#### Clone the Repository
+- git clone https://github.com/yourusername/yourrepo.git
+- cd yourrepo
 
-- Create API Key File
--- Create a file called apikey.env in the root directory and add your OpenRouter API key:
--- OPENROUTER_API_KEY=your_key_here
+#### Create API Key File
+- Create a file called apikey.env in the root directory and add your OpenRouter API key:
+- OPENROUTER_API_KEY=your_key_here
 
-- Install Dependencies
--- pip install -r requirements.txt
+#### Install Dependencies
+- pip install -r requirements.txt
   
-- Start the Backend
--- uvicorn main:app --reload
+#### Start the Backend
+- uvicorn main:app --reload
   
-- Open the Frontend
--- Open index.html in your browser (for proper testing, serve it via a local server if needed).
+#### Open the Frontend
+- Open index.html in your browser (for proper testing, serve it via a local server if needed).
 
-- Features:
+## Features
 - Persistent conversation history
 - Token-aware context window truncation (WIP or planned?)
 - Full-stack architecture with clean separation
