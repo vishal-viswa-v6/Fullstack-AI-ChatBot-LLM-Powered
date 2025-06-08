@@ -1,5 +1,5 @@
 # Full-Stack LLM-Powered Chatbot (ChatGPT/Gemini/DeepSeek Clone)
-## This is a full-stack conversational AI application that integrates a large language model (LLM) using a Python FastAPI backend and a dynamic JavaScript frontend. It supports real-time user interaction, conversation history, and contextual message handling — mimicking platforms like ChatGPT, Gemini, and DeepSeek.
+### This is a full-stack conversational AI application that integrates a large language model (LLM) using a Python FastAPI backend and a dynamic JavaScript frontend. It supports real-time user interaction, conversation history, and contextual message handling, mimicking platforms like ChatGPT, Gemini, and DeepSeek.
 
 ### Tech Stack
 - Frontend: HTML, CSS, JavaScript
