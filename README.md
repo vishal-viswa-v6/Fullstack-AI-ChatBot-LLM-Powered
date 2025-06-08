@@ -12,7 +12,7 @@
 
 ## How to Run Locally
 #### Clone the Repository
-- git clone https://github.com/yourusername/yourrepo.git
+- git clone https://github.com/vishal-viswa-v6/Fullstack-AI-ChatBot-LLM-Powered.git
 - cd yourrepo
 
 #### Create API Key File
